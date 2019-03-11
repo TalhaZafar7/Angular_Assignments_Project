@@ -1,0 +1,42 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div class="fluid-container">
+  <div>
+      <form> 
+          <div class="form-group row" ng-app="">
+              <label for="inputFName3" class=" col-sm-3 col-lg-2 col-md-2 col-form-label">FirstName</label>
+              <div class="col-sm-8 col-md-9 col-lg-10" name="myForm">
+                <input [(ngModel)]="fname" pattern="[A-Za-z]{3}"placeholder="Enter First Name..." class="col-form-control col-sm-8 col-lg-5" name="fname" required #f_NAME>
+              </div>
+            </div>
+          <div class="form-group row" ng-app="">
+            <label for="lName" class="col-sm-3 col-lg-2 col-md-2 col-form-label" >LastName</label>
+            <div class="col-sm-8 col-md-9 col-lg-10">
+              <input [(ngModel)]="lName" placeholder="Enter Last Name..." class="col-form-control col-sm-8 col-lg-5" name="lName" required maxlength="10" required #l_NAME>
+            </div>
+          </div>
+          <div class="form-group row" ng-app="">
+              <label for="eMail" class=" col-sm-3 col-lg-2 col-md-2 col-form-label" >Email</label>
+              <div class="col-sm-8 col-md-9 col-lg-10">
+                <input [(ngModel)]="eMail" type="email" placeholder="  Enter email e.g.    email87@g.com" class="col-form-control col-sm-8 col-lg-5" name="eMail" required #e_mail>
+              </div>
+            </div>
+            <div class="form-group row" ng-app="">
+                <label for="psw" class=" col-sm-3 col-lg-2 col-md-2 col-form-label" >Password</label>
+                <div class="col-sm-8 col-md-9 col-lg-10">
+                  <input [(ngModel)]="psw" type="password" placeholder="************" class="form-control col-sm-8 col-lg-5" name="psw" required #pwd>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary" (click)="validating(f_NAME,l_NAME,e_mail,pwd)" >Register Yourself</button>
+          <div class="form-group row">
+            <div class="container-2 col-sm-10" >
+              <strong> Name: </strong> {{ fname }} {{ lName }}<br>
+            <strong>Email:</strong> {{eMail}}<br>
+          <strong>Password:</strong> {{psw}}
+            </div >
+          </div>
+        </form>
+  </div>
+  <footer class="text-center "> &copy; 2019 EagleEye All Rights Reserved </footer>
+</div>

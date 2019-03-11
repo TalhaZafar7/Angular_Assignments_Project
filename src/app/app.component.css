@@ -1,0 +1,27 @@
+
+ol a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding: 19px;
+    background-color:#2c91dd;
+    border-bottom: 1px solid rgb(164, 225, 250);
+}
+ol a:hover{
+    background-color: rgb(0, 112, 156);
+}
+nav ol{
+    float: right;
+}
+nav{
+    background-color:#2c91dd;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    margin: 0px;
+    border-bottom: 2px solid #2c91dd;
+}
+.fluid-container{
+    width: 100%;
+}

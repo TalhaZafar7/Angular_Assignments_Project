@@ -1,0 +1,47 @@
+div.fluid-container {
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
+  background-image: url("../../assets/images/sd7.jpg");
+  background-size: 600px;
+}
+input.ng-pristine {
+  background-color:lightpink;
+}
+input.ng-dirty {
+  background-color:lightgreen;
+}
+footer{
+  background-color: rgb(0, 153, 255);
+    padding-bottom: 2px;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0px;
+    width: 100%; 
+    text-align: center;
+}
+div.form {
+  position: absolute;
+  top: 200px;
+  height: 400px;
+  left: 30%;
+  width: 40%;
+}
+input{
+  padding: 10px;
+  border-radius: 25px;
+}
+form{
+  margin: 10%;
+}
+label{
+  color: white;
+}
+.contanier3{
+  bottom: 150px;
+  left: 24%;
+  color:white;
+}
+h4{
+  color: #6ab6fd;
+}

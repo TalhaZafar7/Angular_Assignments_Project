@@ -1,0 +1,42 @@
+div.fluid-container {
+  border: 1px solid black;
+  width: 100%;
+  height: 700px;
+  background-image: url("../../assets/images/sd2.jpg");
+}
+footer{
+    background-color: rgb(0, 153, 255);
+    padding-bottom: 2px;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0px;
+    width: 100%; 
+    text-align: center;
+}
+form{
+  position: relative;
+  left: 10%;
+  margin-top: 50px;
+}
+label{
+  color:  white;
+  font-weight: bold;
+}
+div .container-2{
+  color:  rgb(51, 145, 253);
+  font-weight: bold;
+}
+div,input{
+  padding: 7px;
+  width: 97%;
+  border-radius: 13px;
+}
+.btn{
+  background-color: rgb(0, 80, 133);
+  color: white;
+  margin-left: 37%;
+}
+.btn:hover{
+  background-color: rgb(41, 169, 255);
+  font-style:italic; 
+}

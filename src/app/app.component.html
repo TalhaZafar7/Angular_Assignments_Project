@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div style="text-align:center" class="fluid-container" >
+  <h1 class="display-4 text-center">MY {{ title }}</h1>
+  <nav class="navbar navbar-brand">
+    <ul  class="nav">
+        <ol class="nav-item col-sm-3 col-md-2">
+            <a class="nav-link" href="#">HOME</a>
+        </ol>
+        <ol class="nav-item col-sm-3 col-md-2">
+            <a class="nav-link" routerLink="login">LOGIN</a>
+        </ol>
+        <ol class="nav-item col-sm-3 col-md-2">
+            <a class="nav-link" routerLink="/join">JOIN</a>
+        </ol>
+        <ol class="nav-item col-sm-3 col-md-2">
+            <a class="nav-link" routerLink="/dashboard">DASHBOARD</a>
+        </ol>
+        <ol class="nav-item sm-3 col-md-2">
+            <a class="nav-link" href="#">LOGOUT</a>
+        </ol>  
+      </ul>
+  </nav>
+  
+</div>
+
+</body>
+<router-outlet></router-outlet>
